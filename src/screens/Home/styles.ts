@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
     eventName: {
       fontSize: 22,
       fontWeight: "bold",
-      marginTop: 36,
+      marginTop: 48,
       color: "#fdfcfe"
     },
     eventDate: {
@@ -40,6 +40,15 @@ export const styles = StyleSheet.create({
       justifyContent: "center",
       borderRadius: 5,
       backgroundColor: "#31cf67"
+    },
+    buttonDisabled: {
+      width: 58,
+      height: 58,
+      alignItems: "center",
+      justifyContent: "center",
+      borderRadius: 5,
+      backgroundColor: "#31cf67",
+      opacity: 0.5
     },
     buttonText: {
       color: "#fff",
